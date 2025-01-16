@@ -3,7 +3,7 @@
 ## Konwerter języka Python do języka C++
 
 - Założenia programu
-  - Program czyta kod w języku *Python* i konwertuje go na język *C++*
+  - Program czyta kod w języku *Python* i konwertuje go na język *C++* w wersji *C++11* i wyższych
   - Rodzaj translatora: **kompilator** (przekształca od razu cały kod)
   - Wynik działania programu:
     - Poprawny kod: wyświetla się w konsoli
@@ -28,7 +28,14 @@
 
 Program potrafi przetworzyć podstawowe instrukcje jak:
 
-
+- przypisanie (tylko dla jednej zmiennej na raz)
+- instrukcje warunkowe
+- pętle for, while
+- funkcje
+- operatory break, continue
+- wyrażenia logiczne i wartościowane
+- typy int, string, float, bool, listy
+- komentarze
 
 
 ## Przykłady

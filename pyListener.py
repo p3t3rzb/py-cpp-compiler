@@ -44,24 +44,6 @@ class pyListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by pyParser#global_stmt.
-    def enterGlobal_stmt(self, ctx:pyParser.Global_stmtContext):
-        pass
-
-    # Exit a parse tree produced by pyParser#global_stmt.
-    def exitGlobal_stmt(self, ctx:pyParser.Global_stmtContext):
-        pass
-
-
-    # Enter a parse tree produced by pyParser#nonlocal_stmt.
-    def enterNonlocal_stmt(self, ctx:pyParser.Nonlocal_stmtContext):
-        pass
-
-    # Exit a parse tree produced by pyParser#nonlocal_stmt.
-    def exitNonlocal_stmt(self, ctx:pyParser.Nonlocal_stmtContext):
-        pass
-
-
     # Enter a parse tree produced by pyParser#type.
     def enterType(self, ctx:pyParser.TypeContext):
         pass

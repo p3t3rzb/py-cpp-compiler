@@ -29,16 +29,6 @@ class pyVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by pyParser#global_stmt.
-    def visitGlobal_stmt(self, ctx:pyParser.Global_stmtContext):
-        return self.visitChildren(ctx)
-
-
-    # Visit a parse tree produced by pyParser#nonlocal_stmt.
-    def visitNonlocal_stmt(self, ctx:pyParser.Nonlocal_stmtContext):
-        return self.visitChildren(ctx)
-
-
     # Visit a parse tree produced by pyParser#type.
     def visitType(self, ctx:pyParser.TypeContext):
         return self.visitChildren(ctx)

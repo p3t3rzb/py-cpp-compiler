@@ -17,10 +17,7 @@ NOT: 'not';
 IN: 'in';
 OR: 'or';
 AND: 'and';
-GLOBAL: 'global';
-NONLOCAL: 'nonlocal';
 FOR: 'for';
-PASS: 'pass';
 INT: 'int';
 STR: 'str';
 FLOAT: 'float';
@@ -75,23 +72,12 @@ statement
 simple_stmt
     : assignment
     | expr
-    | global_stmt
-    | nonlocal_stmt
-    | PASS
     ;
 
 control_stmt
     : RETURN expr?
     | BREAK
     | CONTINUE
-    ;
-
-global_stmt
-    : GLOBAL IDENTIFIER (COMMA IDENTIFIER)*
-    ;
-
-nonlocal_stmt
-    : NONLOCAL IDENTIFIER (COMMA IDENTIFIER)*
     ;
 
 type
@@ -175,7 +161,6 @@ compound_stmt
 
 block
     : BEGIN NEWLINE (statement | control_stmt)* END
-    | BEGIN NEWLINE PASS NEWLINE END
     ;
 
 if_stmt

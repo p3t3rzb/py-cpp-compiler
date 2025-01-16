@@ -305,6 +305,10 @@ def translate_pseudocode_to_cpp(code):
     parser = pyParser(token_stream)
     tree = parser.program()
 
+    if parser.getNumberOfSyntaxErrors() > 0:
+        print("Parsing failed due to syntax errors.")
+        return None 
+
     visitor = PythonToCPPVisitor()
     cpp_code = visitor.visit(tree)
 

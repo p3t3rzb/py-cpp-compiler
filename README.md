@@ -42,7 +42,7 @@ Program potrafi przetworzyć podstawowe instrukcje jak:
 
 ### Poprawny kod
 
-Dla `pos_2.py`:
+Dla `inputs/czynnikipierwsze.py`:
 
 ```python
 def czynniki_pierwsze(n -> int):

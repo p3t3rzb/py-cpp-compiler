@@ -5,6 +5,7 @@
 - Założenia programu
   - Program czyta kod w języku *Python* i konwertuje go na język *C++* w wersji *C++11* i wyższych
   - Rodzaj translatora: **kompilator** 
+  - Plik programu: **transcoder.py**
   - Wynik działania programu:
     - Poprawny kod: wyświetla się w konsoli
     - Niepoprawny kod: wypisanie komunikatu błędu wraz z jego pozycją

@@ -4,10 +4,10 @@
 
 - Założenia programu
   - Program czyta kod w języku *Python* i konwertuje go na język *C++* w wersji *C++11* i wyższych
-  - Rodzaj translatora: **kompilator** (przekształca od razu cały kod)
+  - Rodzaj translatora: **kompilator** 
   - Wynik działania programu:
     - Poprawny kod: wyświetla się w konsoli
-    - Niepoprawny kod: wypisanie komunikatu błędu wraz ze wskazaniem błędnego fragmentu kodu
+    - Niepoprawny kod: wypisanie komunikatu błędu wraz z jego pozycją
   - Język implementacji: **Python 3.12**
   - Generator skanera/parsera: **ANTLR4**
 

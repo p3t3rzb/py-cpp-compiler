@@ -29,8 +29,9 @@
 Program potrafi przetworzyć podstawowe instrukcje jak:
 
 - przypisanie (tylko dla jednej zmiennej na raz)
+- operacje wejścia/wyjścia print(), input()
 - instrukcje warunkowe
-- pętle for, while
+- pętle for (i funkcja range), while
 - funkcje
 - operatory break, continue
 - wyrażenia logiczne i wartościowane
